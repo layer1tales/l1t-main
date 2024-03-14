@@ -1,0 +1,279 @@
+.story-content-section {
+  background-color: #010101;
+  position: relative;
+  min-height: 100vh;
+
+  .dropdown-wrap {
+    position: absolute;
+    top: calc(-120 / 1440 * 100vw);
+    left: calc(60 / 1440 * 100vw);
+
+    @media (max-width: $screen-xxl) {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 100px auto 70px;
+      max-width: max-content;
+    }
+
+    @media (max-width: $screen-md) {
+      margin: 130px auto 48px;
+      max-width: 360px;
+      width: 100%;
+    }
+
+    .dropdown {
+      border: 1px solid rgba(255, 255, 255, .6);
+      border-radius: calc(8 / 1440 * 100vw);
+      min-width: calc(250 / 1440 * 100vw);
+      position: relative;
+
+      @media (max-width: $screen-xxl) {
+        border-radius: 8px;
+        min-width: 250px;
+      }
+
+      button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: calc(24 / 1440 * 100vw) calc(12 / 1440 * 100vw);
+        background-color: transparent;
+        border: 0;
+        box-shadow: none !important;
+        outline: none !important;
+
+        @media (max-width: $screen-xxl) {
+          padding: 24px 12px;
+        }
+
+        &[aria-expanded="true"] .arrow {
+          transform: rotate(0);
+        }
+
+        &::after {
+          display: none;
+        }
+
+        .text {
+          font-size: calc(20 / 1440 * 100vw);
+          font-family: $main-font;
+          font-weight: 700;
+          line-height: 1.2;
+          text-align: left;
+          color: $white-color;
+          text-transform: uppercase;
+          margin-right: calc(60 / 1440 * 100vw);
+
+          @media (max-width: $screen-xxl) {
+            font-size: 20px;
+            margin-right: 60px;
+          }
+        }
+
+        .arrow {
+          transform: rotate(180deg);
+        }
+      }
+
+      .dropdown-menu {
+        top: 105% !important;
+        transform: none !important;
+        min-width: calc(250 / 1440 * 100vw);
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, .6);
+        border-radius: calc(8 / 1440 * 100vw);
+        z-index: 1;
+
+        @media (max-width: $screen-xxl) {
+          min-width: 250px;
+          border-radius: 8px;
+        }
+
+        @media (max-width: $screen-md) {
+          width: 100%;
+          max-width: 360px;
+        }
+
+        .dropdown-item:last-child a p::after {
+          display: none;
+        }
+
+        a {
+          padding: calc(24 / 1440 * 100vw) calc(12 / 1440 * 100vw);
+          background-color: transparent;
+
+          @media (max-width: $screen-xxl) {
+            padding: 24px 12px;
+            background-color: #010101;
+          }
+
+          p {
+            font-size: calc(20 / 1440 * 100vw);
+            font-family: $main-font;
+            font-weight: 700;
+            line-height: 1.2;
+            text-align: left;
+            color: $white-color;
+            text-transform: uppercase;
+            position: relative;
+
+            @media (max-width: $screen-xxl) {
+              font-size: 20px;
+            }
+
+            &::after {
+              content: '';
+              position: absolute;
+              bottom: calc(-24 / 1440 * 100vw);
+              left: 0;
+              width: 100%;
+              height: calc(1 / 1440 * 100vw);
+              background-color: rgba(217, 217, 217, .2);
+
+              @media (max-width: $screen-xxl) {
+                bottom: -24px;
+                height: 1px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .text-wrap {
+    max-width: calc(690 / 1440 * 100vw);
+    margin: calc(-120 / 1440 * 100vw) auto calc(100 / 1440 * 100vw);
+
+    @media (max-width: $screen-xxl) {
+      max-width: 100%;
+      margin: 0 auto 100px;
+    }
+
+    @media (max-width: $screen-md) {
+      margin: 0 auto 70px;
+    }
+
+    p {
+      font-size: calc(18 / 1440 * 100vw);
+      line-height: 1.3;
+      text-indent: calc(48 / 1440 * 100vw);
+      font-family: $main-font;
+      font-weight: 400;
+      color: $white-color;
+      margin-bottom: calc(10 / 1440 * 100vw);
+
+      @media (max-width: $screen-xxl) {
+        font-size: 18px;
+        text-indent: 48px;
+        margin-bottom: 10px;
+      }
+
+      @media (max-width: $screen-md) {
+        font-size: 16px;
+        text-indent: 32px;
+      }
+    }
+  }
+
+  .nav-wrap {
+    max-width: calc(880 / 1440 * 100vw);
+    margin: 0 auto calc(120 / 1440 * 100vw);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: $screen-xxl) {
+      max-width: 880px;
+      margin: 0 auto 120px;
+    }
+
+    @media (max-width: $screen-lg) {
+      max-width: 100%;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    @media (max-width: $screen-md) {
+      flex-direction: column;
+      gap: 0;
+      margin: 0 auto 100px;
+    }
+
+    a {
+      text-decoration: none;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover svg path {
+        fill: rgba(255, 255, 255, .1);
+      }
+
+      .bg {
+        width: calc(430 / 1440 * 100vw);
+
+        @media (max-width: $screen-xxl) {
+          width: 430px;
+        }
+
+        @media (max-width: $screen-lg) {
+          width: 340px;
+        }
+
+        svg {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .text {
+        position: absolute;
+
+        @media (max-width: $screen-lg) {
+          padding: 0 20px;
+        }
+
+        p {
+          font-size: calc(20 / 1440 * 100vw);
+          font-family: $main-font;
+          font-weight: 700;
+          line-height: 1.2;
+          text-align: left;
+          color: $white-color;
+          text-transform: uppercase;
+
+          @media (max-width: $screen-xxl) {
+            font-size: 20px;
+          }
+
+          @media (max-width: $screen-lg) {
+            font-size: 16px;
+          }
+        }
+
+        h5 {
+          font-size: calc(40 / 1440 * 100vw);
+          font-family: $headline-font;
+          line-height: 0.9;
+          letter-spacing: calc(2 / 1440 * 100vw);
+          color: $white-color;
+          text-transform: uppercase;
+
+          @media (max-width: $screen-xxl) {
+            font-size: 40px;
+            letter-spacing: 2px;
+          }
+
+          @media (max-width: $screen-lg) {
+            font-size: 32px;
+          }
+        }
+      }
+    }
+  }
+}

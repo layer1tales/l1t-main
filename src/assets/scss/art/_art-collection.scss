@@ -1,0 +1,208 @@
+.art-collection-section {
+  background-color: #010101;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: calc(100 / 1440 * 100vw) 0;
+
+  @media (max-width: $screen-xxl) {
+    padding: 100px;
+  }
+
+  @media (max-width: $screen-lg) {
+    padding: 50px 40px 120px;
+    min-height: max-content;
+  }
+
+  @media (max-width: $screen-sm) {
+    padding: 50px 0 140px;
+  }
+
+  .text-wrap {
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    margin-bottom: calc(-90 / 1440 * 100vw);
+
+    @media (max-width: $screen-xxl) {
+      margin-bottom: -90px;
+    }
+
+    @media (max-width: $screen-lg) {
+      margin-bottom: -60px;
+    }
+
+    @media (max-width: $screen-sm) {
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: calc(96 / 1440 * 100vw);
+      font-family: $headline-font;
+      line-height: 0.9;
+      letter-spacing: calc(3.5 / 1440 * 100vw);
+      color: $white-color;
+      text-transform: uppercase;
+      max-width: calc(670 / 1440 * 100vw);
+      margin: 0 auto;
+
+      @media (max-width: $screen-xxl) {
+        font-size: 96px;
+        letter-spacing: 3.5px;
+        max-width: 670px;
+      }
+
+      @media (max-width: $screen-lg) {
+        font-size: 88px;
+        max-width: 400px;
+      }
+
+      @media (max-width: $screen-sm) {
+        font-size: 64px;
+        max-width: 270px;
+      }
+
+      br {
+        @media (max-width: $screen-lg) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .swiper {
+    position: relative;
+    z-index: 1;
+    max-width: calc(980 / 1440 * 100vw);
+    margin: 0 auto;
+
+    @media (max-width: $screen-xxl) {
+      max-width: 880px;
+    }
+
+    @media (max-width: $screen-sm) {
+      overflow: initial;
+    }
+
+    .swiper-slide {
+      padding: 0 calc(50 / 1440 * 100vw);
+
+      @media (max-width: $screen-lg) {
+        padding: 0;
+      }
+
+      .img-wrap {
+        width: 100%;
+        padding: 0 calc(10 / 1440 * 100vw);
+
+        @media (max-width: $screen-xxl) {
+          padding: 0 10px;
+        }
+
+        @media (max-width: $screen-lg) {
+          padding: 0;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      width: calc(96 / 1440 * 100vw);
+      transition: $fast-transition;
+      border-radius: 50%;
+      height: max-content;
+
+      @media (max-width: $screen-xxl) {
+        width: 96px;
+      }
+
+      @media (max-width: $screen-lg) {
+        width: 72px;
+      }
+
+      @media (max-width: $screen-sm) {
+        display: none;
+      }
+
+      &::after {
+        display: none;
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, .2);
+      }
+
+      img {
+        width: calc(96 / 1440 * 100vw);
+
+        @media (max-width: $screen-xxl) {
+          width: 96px;
+        }
+
+        @media (max-width: $screen-lg) {
+          width: 72px;
+        }
+      }
+    }
+
+    .swiper-button-next {
+      margin-right: calc(0 / 1440 * 100vw);
+    }
+
+    .swiper-button-prev {
+      margin-left: calc(0 / 1440 * 100vw);
+    }
+
+    .btn-wrap {
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      right: 0;
+      bottom: calc(70 / 1440 * 100vw);
+      margin: 0 auto;
+
+      @media (max-width: $screen-xxl) {
+        bottom: 70px;
+      }
+
+      @media (max-width: $screen-sm) {
+        bottom: -36px;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        position: relative;
+
+        .text {
+          font-size: calc(18 / 1440 * 100vw);
+          color: $white-color;
+          font-family: $main-font;
+          font-weight: 700;
+          position: absolute;
+          margin: auto;
+          text-transform: uppercase;
+
+          @media (max-width: $screen-xxl) {
+            font-size: 18px;
+          }
+        }
+
+        .bg svg {
+          width: calc(270 / 1440 * 100vw);
+          height: auto;
+
+          @media (max-width: $screen-xxl) {
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+}

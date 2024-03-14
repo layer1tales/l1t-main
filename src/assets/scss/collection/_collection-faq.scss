@@ -1,0 +1,148 @@
+.collection-faq-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 0 calc(160 / 1440 * 100vw);
+
+  @media (max-width: $screen-xxl) {
+    padding: 0 0 160px;
+  }
+
+  @media (max-width: $screen-lg) {
+    padding: 0 0 120px;
+  }
+
+  .title-wrap {
+    width: calc(940 / 1440 * 100vw);
+    margin: 0 auto;
+
+    @media (max-width: $screen-xxl) {
+      width: 940px;
+    }
+
+    @media (max-width: $screen-lg) {
+      width: 100%;
+      max-width: 700px;
+    }
+
+    h2 {
+      font-size: calc(96 / 1440 * 100vw);
+      font-family: $headline-font;
+      line-height: 0.9;
+      letter-spacing: calc(3.5 / 1440 * 100vw);
+      color: $white-color;
+      text-transform: uppercase;
+
+      @media (max-width: $screen-xxl) {
+        font-size: 96px;
+        letter-spacing: 3.5px;
+      }
+
+      @media (max-width: $screen-lg) {
+        font-size: 88px;
+      }
+
+      @media (max-width: $screen-sm) {
+        font-size: 64px;
+      }
+    }
+  }
+
+  .accordion-wrap {
+    width: calc(940 / 1440 * 100vw);
+    margin: 0 auto;
+
+    @media (max-width: $screen-xxl) {
+      width: 940px;
+    }
+
+    @media (max-width: $screen-lg) {
+      width: 100%;
+      max-width: 700px;
+    }
+
+    .accordion {
+
+      .accordion-item {
+        border: 0;
+        border-radius: 0;
+        color: $white-color;
+        background-color: transparent;
+        padding: calc(32 / 1440 * 100vw) 0;
+        border-bottom: 1px solid rgba(#D9D9D9, .4);
+
+        @media (max-width: $screen-xxl) {
+          padding: 32px 0;
+        }
+
+        @media (max-width: $screen-lg) {
+          padding: 24px 0;
+        }
+      }
+
+      .accordion-header {
+
+        button {
+          padding: 0;
+          color: $white-color;
+          background-color: transparent;
+
+          &[aria-expanded="true"] {
+            box-shadow: none;
+          }
+
+          h5 {
+            font-size: calc(32 / 1440 * 100vw);
+            font-family: $headline-font;
+            line-height: 0.9;
+            letter-spacing: calc(2 / 1440 * 100vw);
+            color: $white-color;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin: 0;
+
+            @media (max-width: $screen-xxl) {
+              font-size: 32px;
+              letter-spacing: 2px;
+            }
+          }
+
+          &::after {
+            width: calc(24 / 1440 * 100vw);
+            height: calc(24 / 1440 * 100vw);
+            background-size: cover;
+            background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%2723FFFFFF%27 stroke=%27%23FFFFFF%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3e%3cpath d=%27M2 5L8 11L14 5%27/%3e%3c/svg%3e");
+
+            @media (max-width: $screen-xxl) {
+              width: 24px;
+              height: 24px;
+            }
+          }
+        }
+      }
+
+      .accordion-body {
+        padding: calc(16 / 1440 * 100vw) 0 0;
+
+        @media (max-width: $screen-xxl) {
+          padding: 16px 0 0;
+        }
+
+        p {
+          font-size: calc(18 / 1440 * 100vw);
+          font-family: $main-font;
+          font-weight: 400;
+          margin: 0;
+
+          @media (max-width: $screen-xxl) {
+            font-size: 18px;
+          }
+
+          @media (max-width: $screen-lg) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

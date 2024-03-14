@@ -1,0 +1,22 @@
+.page-loading-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 30;
+  background-color: $black-color;
+  transition: 1s all ease;
+
+  &.hidden {
+    background-color: transparent;
+    transform: translateY(-100vh);
+  }
+
+  .page-loading-progress {
+    height: 100%;
+    width: 0;
+    background-color: #EAAFE2;
+  }
+}
+

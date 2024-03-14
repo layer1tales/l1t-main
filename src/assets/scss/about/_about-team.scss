@@ -1,0 +1,229 @@
+.about-team-section {
+  background-color: #010101;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: $screen-lg) {
+    padding: 80px 0 120px;
+    min-height: max-content;
+  }
+
+  @media (max-width: $screen-sm) {
+    padding: 80px 0;
+  }
+
+  .container {
+    padding-left: calc(200 / 1440 * 100vw);
+    padding-bottom: calc(70 / 1440 * 100vw);
+
+    @media (max-width: $screen-xxl) {
+      padding-left: 170px;
+      padding-bottom: 70px;
+    }
+
+    @media (max-width: $screen-lg) {
+      padding: 0 20px;
+    }
+  }
+
+  .bg-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background: url('../../img/about/about-lit-overlay-bg.png') no-repeat fixed center;
+    background-size: cover;
+
+    @media (max-width: $screen-md) {
+      background: none;
+    }
+
+    .light-bg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: -1;
+
+      img {
+        width: calc(1150 / 1440 * 100vw);
+
+        @media (max-width: $screen-xxl) {
+          width: 1150px;
+        }
+      }
+    }
+  }
+
+  .headline-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: calc(70 / 1440 * 100vw);
+
+    @media (max-width: $screen-xxl) {
+      margin-bottom: 50px;
+    }
+
+    @media (max-width: $screen-lg) {
+      margin-bottom: 80px;
+    }
+
+    @media (max-width: $screen-md) {
+      flex-direction: column;
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: calc(88 / 1440 * 100vw);
+      font-family: $headline-font;
+      line-height: 0.9;
+      letter-spacing: calc(3.5 / 1440 * 100vw);
+      color: $white-color;
+      text-transform: uppercase;
+      position: relative;
+
+      @media (max-width: $screen-xxl) {
+        font-size: 70px;
+        letter-spacing: 3.5px;
+        max-width: 1000px;
+        white-space: nowrap;
+        margin-right: 60px;
+      }
+
+      @media (max-width: $screen-lg) {
+        font-size: 96px;
+        margin-right: 90px;
+      }
+
+      @media (max-width: $screen-md) {
+        margin-bottom: 24px;
+      }
+
+      @media (max-width: $screen-sm) {
+        font-size: 64px;
+      }
+    }
+
+    p {
+      font-size: calc(18 / 1440 * 100vw);
+      font-family: $main-font;
+      font-weight: 700;
+      line-height: 1.2;
+      color: $white-color;
+      text-transform: uppercase;
+      max-width: calc(715 / 1440 * 100vw);
+
+      @media (max-width: $screen-xxl) {
+        font-size: 18px;
+        max-width: 715px;
+        padding-right: 50px;
+      }
+
+      @media (max-width: $screen-lg) {
+        color: #D3D3D3;
+        padding: 0;
+      }
+
+      .pink {
+        color: #E9ABE1;
+      }
+    }
+  }
+
+  .team-swiper {
+
+    .swiper-wrapper {
+
+      @media (min-width: $screen-md) {
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .swiper-slide {
+        margin-bottom: 40px;
+
+        @media (min-width: $screen-md) {
+          width: calc((100% - 40px) / 3) !important;
+          margin-bottom: 24px;
+        }
+
+        @media (min-width: $screen-lg) {
+          width: calc(25% - 30px) !important;
+        }
+
+        @media (min-width: $screen-xxl) {
+          width: calc(25% - (30 / 1440 * 100vw)) !important;
+          margin-bottom: calc(24 / 1440 * 100vw);
+        }
+
+        a {
+          color: $white-color;
+          text-decoration: none;
+
+          &[href]:hover h4 {
+            color: #E9ABE1;
+          }
+
+          h4 {
+            font-size: calc(40 / 1440 * 100vw);
+            font-family: $headline-font;
+            font-weight: 400;
+            line-height: .9;
+            letter-spacing: calc(4 / 1440 * 100vw);
+            margin-bottom: calc(8 / 1440 * 100vw);
+
+            @media (max-width: $screen-xxl) {
+              font-size: 40px;
+              letter-spacing: 4px;
+              margin-bottom: 8px;
+            }
+          }
+
+          p {
+            font-size: calc(12 / 1440 * 100vw);
+            font-family: $main-font;
+            font-weight: 700;
+            color: #D3D3D3;
+            text-transform: uppercase;
+            margin: 0;
+
+            @media (max-width: $screen-xxl) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+
+      @media (max-width: $screen-md) {
+        display: initial;
+        position: relative;
+        right: 0;
+        left: 0;
+        margin-right: 8px;
+      }
+
+      &::after {
+        display: none;
+      }
+
+      img {
+        width: 48px;
+      }
+    }
+  }
+}

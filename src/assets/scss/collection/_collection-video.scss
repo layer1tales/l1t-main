@@ -1,0 +1,170 @@
+.collection-video-section {
+  background-color: #010101;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 0 calc(160 / 1440 * 100vw);
+
+  @media (max-width: $screen-xxl) {
+    padding: 0 0 160px;
+  }
+
+  @media (max-width: $screen-lg) {
+    min-height: max-content;
+    padding: 0 0 100px;
+  }
+
+  .text-wrap {
+    text-align: center;
+    position: relative;
+    z-index: 7;
+    margin-bottom: calc(-40 / 1440 * 100vw);
+
+    @media (max-width: $screen-xxl) {
+      margin-bottom: -40px;
+    }
+
+    @media (max-width: $screen-lg) {
+      margin-bottom: -40px;
+    }
+
+    @media (max-width: $screen-sm) {
+      margin-bottom: -30px;
+    }
+
+    h2 {
+      font-size: calc(96 / 1440 * 100vw);
+      font-family: $headline-font;
+      line-height: 0.9;
+      letter-spacing: calc(3.5 / 1440 * 100vw);
+      color: $white-color;
+      text-transform: uppercase;
+      max-width: calc(670 / 1440 * 100vw);
+      margin: 0 auto;
+
+      @media (max-width: $screen-xxl) {
+        font-size: 96px;
+        letter-spacing: 3.5px;
+        max-width: 670px;
+      }
+
+      @media (max-width: $screen-lg) {
+        font-size: 88px;
+        max-width: 400px;
+      }
+
+      @media (max-width: $screen-sm) {
+        font-size: 64px;
+        max-width: 270px;
+      }
+
+      br {
+        @media (max-width: $screen-lg) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .artifacts-wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+
+    @media (max-width: $screen-lg) {
+      margin-top: -50px;
+    }
+
+    @media (max-width: $screen-md) {
+      display: flex;
+    }
+
+    img {
+      height: 100%;
+
+      @media (max-width: $screen-lg) {
+        width: 90%;
+        height: auto;
+      }
+    }
+  }
+
+  .video-wrap {
+    max-width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 6;
+    cursor: pointer;
+    border-radius: calc(20 / 1440 * 100vw);
+    overflow: hidden;
+
+    @media (max-width: $screen-xxl) {
+      border-radius: 20px;
+    }
+
+    &:hover {
+
+      .mask {
+        background-color: rgba(0, 0, 0, .6);
+      }
+
+      .text-wrap .play-wrap {
+        background-color: rgba(255, 255, 255, .2);
+      }
+    }
+
+    .cover img {
+      width: calc(940 / 1440 * 100vw);
+
+      @media (max-width: $screen-xxl) {
+        width: 940px;
+      }
+
+      @media (max-width: $screen-lg) {
+        width: 100%;
+        max-width: 700px;
+      }
+    }
+
+    .mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, .4);
+      transition: $fast-transition;
+    }
+
+    .play-wrap {
+      border-radius: 50%;
+      max-width: max-content;
+      max-height: max-content;
+      margin: 0 calc(30 / 1440 * 100vw);
+      transition: $fast-transition;
+
+      @media (max-width: $screen-xxl) {
+        margin: 0 30px;
+      }
+
+      @media (max-width: $screen-lg) {
+        margin: 0 18px;
+        max-width: 25%;
+      }
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

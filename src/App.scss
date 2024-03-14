@@ -1,0 +1,31 @@
+@import "assets/scss/vars/variables";
+@import "assets/scss/general/general";
+@import "assets/scss/general/header";
+@import "assets/scss/general/footer";
+@import "assets/scss/general/terms-privacy";
+@import "assets/scss/general/page-loading";
+
+// About
+@import "assets/scss/about/about-hero";
+@import "assets/scss/about/about-learn";
+@import "assets/scss/about/about-lit";
+@import "assets/scss/about/about-team";
+
+// Art
+//@import "assets/scss/art/art-hero";
+//@import "assets/scss/art/art-traits";
+//@import "assets/scss/art/art-video";
+//@import "assets/scss/art/art-collection";
+
+// Collection
+@import "assets/scss/collection/collection-hero";
+@import "assets/scss/collection/collection-video";
+@import "assets/scss/collection/collection-nft";
+@import "assets/scss/collection/collection-faq";
+
+// Characters
+@import "assets/scss/characters/characters-hero";
+
+// Lore
+@import "assets/scss/lore/lore-cover";
+@import "assets/scss/lore/lore-content";

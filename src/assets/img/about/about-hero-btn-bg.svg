@@ -1,0 +1,43 @@
+<svg width="274" height="70" viewBox="0 0 274 70" fill="none" xmlns="http://www.w3.org/2000/svg" id="btn-pink-bg">
+    <defs>
+        <style type="text/css">
+            #btn-pink-bg:hover #btn-pink-bg-path-1 {
+                fill: #f7aced;
+            }
+
+            #btn-pink-bg:hover #btn-pink-bg-path-2 {
+                fill: url(#paint0_radial_325_2652);
+                fill-opacity: 1;
+            }
+        </style>
+    </defs>
+    <g filter="url(#filter0_i_388_683)">
+        <path id="btn-pink-bg-path-1" d="M0 64V27.4074C0 26.0878 0.435021 24.805 1.23771 23.7576L17.644 2.35026C18.7794 0.86872 20.5397 0 22.4063 0H268C271.314 0 274 2.68629 274 6V44.5858C274 45.9938 273.505 47.3569 272.601 48.4366L256.354 67.8508C255.214 69.213 253.529 70 251.752 70H6C2.68629 70 0 67.3137 0 64Z"
+              fill="#E9ABE1"/>
+        <path id="btn-pink-bg-path-1" d="M0 64V27.4074C0 26.0878 0.435021 24.805 1.23771 23.7576L17.644 2.35026C18.7794 0.86872 20.5397 0 22.4063 0H268C271.314 0 274 2.68629 274 6V44.5858C274 45.9938 273.505 47.3569 272.601 48.4366L256.354 67.8508C255.214 69.213 253.529 70 251.752 70H6C2.68629 70 0 67.3137 0 64Z"
+              fill="url(#paint0_radial_388_683)" fill-opacity="0.6"/>
+    </g>
+    <defs>
+        <filter id="filter0_i_388_683" x="0" y="0" width="274" height="74.9369" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"/>
+            <feOffset dy="4.93694"/>
+            <feGaussianBlur stdDeviation="6.17117"/>
+            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.845833 0 0 0 0 0.965188 0 0 0 0.6 0"/>
+            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_388_683"/>
+        </filter>
+        <radialGradient id="paint0_radial_388_683" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(137 35) rotate(100.591) scale(80.5833 315.32)">
+            <stop stop-color="#F1B5B2"/>
+            <stop offset="1" stop-color="#E9ABE1" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="paint0_radial_325_2652" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(141 26) rotate(118.701) scale(228.014 892.21)">
+            <stop stop-color="#F1B5B2"/>
+            <stop offset="1" stop-color="#E9ABE1" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+</svg>

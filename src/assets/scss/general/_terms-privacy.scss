@@ -1,0 +1,95 @@
+.terms-privacy-section {
+  padding: calc(150 / 1440 * 100vw) 0 (100 / 1440 * 100vw);
+
+  @media (max-width: $screen-xxl) {
+    padding: 150px 0 100px;
+  }
+
+  .headline-wrap {
+    margin-bottom: calc(40 / 1440 * 100vw);
+
+    @media (max-width: $screen-xxl) {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: $screen-lg) {
+      margin: 0 auto 32px;
+    }
+
+    h2 {
+      font-size: calc(88 / 1440 * 100vw);
+      font-family: $headline-font;
+      letter-spacing: calc(4.3 / 1440 * 100vw);
+      max-width: calc(600 / 1440 * 100vw);
+      color: $white-color;
+      font-weight: 400;
+      text-transform: uppercase;
+
+      @media (max-width: $screen-xxl) {
+        font-size: 88px;
+        letter-spacing: 4.3px;
+        max-width: 500px;
+      }
+
+      @media (max-width: $screen-lg) {
+        font-size: 72px;
+      }
+
+
+      @media (max-width: $screen-sm) {
+        font-size: 64px;
+      }
+    }
+  }
+
+  .text-wrap {
+    color: $white-color;
+
+    h3 {
+      font-size: calc(24 / 1440 * 100vw);
+      font-family: $main-font;
+      font-weight: 700;
+      color: #E9ABE1;
+      margin-bottom: calc(10 / 1440 * 100vw);
+
+      @media (max-width: $screen-xxl) {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      @media (max-width: $screen-lg) {
+        font-size: 22px;
+      }
+
+
+      @media (max-width: $screen-sm) {
+        font-size: 20px;
+      }
+    }
+
+    p {
+      font-size: calc(18 / 1440 * 100vw);
+      font-family: $main-font;
+      font-weight: 400;
+      margin-bottom: calc(30 / 1440 * 100vw);
+
+      @media (max-width: $screen-xxl) {
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+
+      @media (max-width: $screen-lg) {
+        font-size: 16px;
+      }
+
+
+      @media (max-width: $screen-sm) {
+        font-size: 14px;
+      }
+
+      a {
+        color: #E9ABE1;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+<svg width="184" height="184" viewBox="0 0 184 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M73.4609 64.5504C73.4609 62.413 75.7746 61.0772 77.6256 62.1459L125.52 89.7977C127.371 90.8664 127.371 93.5381 125.52 94.6068L77.6256 122.259C75.7746 123.327 73.4609 121.991 73.4609 119.854L73.4609 64.5504Z" fill="white"/>
+<g filter="url(#filter0_biiii_325_2699)">
+<circle cx="92" cy="92" r="92" fill="white" fill-opacity="0.4"/>
+<circle cx="92" cy="92" r="90.5" stroke="url(#paint0_radial_325_2699)" stroke-width="3"/>
+<circle cx="92" cy="92" r="90.5" stroke="white" stroke-opacity="0.2" stroke-width="3"/>
+</g>
+<g filter="url(#filter1_d_325_2699)">
+<path d="M73.4609 64.5504C73.4609 62.413 75.7746 61.0772 77.6256 62.1459L125.52 89.7977C127.371 90.8664 127.371 93.5381 125.52 94.6068L77.6256 122.259C75.7746 123.327 73.4609 121.991 73.4609 119.854L73.4609 64.5504Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_biiii_325_2699" x="-12.6293" y="-12.6293" width="209.259" height="209.259" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="6.31467"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_325_2699"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_325_2699" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.70667" dy="1.70667"/>
+<feGaussianBlur stdDeviation="0.853333"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.8 0 0 0 0 0.8 0 0 0 0 0.8 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_325_2699"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-0.853333" dy="0.853333"/>
+<feGaussianBlur stdDeviation="0.426667"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="effect2_innerShadow_325_2699" result="effect3_innerShadow_325_2699"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="1.70667" dy="-1.70667"/>
+<feGaussianBlur stdDeviation="0.853333"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="effect3_innerShadow_325_2699" result="effect4_innerShadow_325_2699"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.853333" dy="-0.853333"/>
+<feGaussianBlur stdDeviation="0.426667"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.8 0 0 0 0 0.8 0 0 0 0 0.8 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="effect4_innerShadow_325_2699" result="effect5_innerShadow_325_2699"/>
+</filter>
+<filter id="filter1_d_325_2699" x="53.4609" y="41.7698" width="93.4473" height="100.865" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_325_2699"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_325_2699" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_325_2699" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.5 -8.5) rotate(68.5845) scale(206.776)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
