@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.054e5566.css",
-    "main.js": "/static/js/main.15ea8660.js",
+    "main.css": "/static/css/main.6318cfdd.css",
+    "main.js": "/static/js/main.c7459af5.js",
     "static/js/453.ad4241f7.chunk.js": "/static/js/453.ad4241f7.chunk.js",
     "static/media/about-hero-ground.png": "/static/media/about-hero-ground.607e5d4b2a8be71fcee9.png",
     "static/media/sound.mp3": "/static/media/sound.e83507c63e763a29055e.mp3",
@@ -68,12 +68,12 @@
     "static/media/next-arrow-icon.svg": "/static/media/next-arrow-icon.d52bd2d527335e885e0bd7c75d57ec36.svg",
     "static/media/prev-arrow-icon.svg": "/static/media/prev-arrow-icon.2129129cfa7f63f23dd99d1bab1c8b26.svg",
     "static/media/icon-sound-off.svg": "/static/media/icon-sound-off.f44e1b0441fdd127924db903cd4519ac.svg",
-    "main.054e5566.css.map": "/static/css/main.054e5566.css.map",
-    "main.15ea8660.js.map": "/static/js/main.15ea8660.js.map",
+    "main.6318cfdd.css.map": "/static/css/main.6318cfdd.css.map",
+    "main.c7459af5.js.map": "/static/js/main.c7459af5.js.map",
     "453.ad4241f7.chunk.js.map": "/static/js/453.ad4241f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.054e5566.css",
-    "static/js/main.15ea8660.js"
+    "static/css/main.6318cfdd.css",
+    "static/js/main.c7459af5.js"
   ]
 }
