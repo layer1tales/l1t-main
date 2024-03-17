@@ -161,11 +161,11 @@ const Hero = () => {
                             </div>
                             <div className="line">
                                 <h2>Price</h2>
-                                <h2>1,2 sol</h2>
+                                <h2>TBA</h2>
                             </div>
                             <div className="line">
                                 <h2>Mint Date</h2>
-                                <h2>tba</h2>
+                                <h2>TBA</h2>
                             </div>
                         </div>
                         <p>original nft collection of 2,222 unique solana blockchain heroines fighting for freedom.</p>
