@@ -17,15 +17,15 @@ const teamData = [
         description: <>{`//`} Lead Artist</>
     },
     {
-        name: 'Mario W.',
+        name: 'Nya H.',
         description: <>{`//`} Senior Artist</>
     },
     {
-        name: 'Viorel C.',
+        name: 'Mario W.',
         description: <>{`//`} Artist</>
     },
     {
-        name: 'Ereg B.',
+        name: 'Danna A.',
         description: <>{`//`} Artist</>
     },
     {
@@ -57,8 +57,8 @@ const teamData = [
         description: <>{`//`} Beta Reader</>
     },
     {
-        name: 'Kate E.',
-        description: <>{`//`} Motion Designer</>
+        name: 'Muhammad R.',
+        description: <>{`//`} Graphic Designer</>
     },
     {
         name: 'Vsevolov K.',
@@ -100,7 +100,7 @@ const Team = () => {
                         <div className="headline-wrap">
                             <h2 data-aos="fade-up" data-aos-delay="0">Our team</h2>
                             <p data-aos="fade-up" data-aos-delay="100">The L1T team brings together <span
-                                className="pink">many rising talents from the gaming and crypto industries</span>. We
+                                className="pink">many rising talents from the art and crypto industries</span>. We
                                 are proud to have one of the most cohesive artistic groups within the Solana ecosystem.
                             </p>
                         </div>

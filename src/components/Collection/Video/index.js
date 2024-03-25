@@ -15,7 +15,7 @@ const Video = () => {
                 <Row>
                     <Col xs={12}>
                         <div className="text-wrap">
-                            <h2 data-aos="fade-down" data-aos-delay="0">Our artist</h2>
+                            <h2 data-aos="fade-down" data-aos-delay="0">Our Artist</h2>
                         </div>
                     </Col>
                     <Col xs={12}>

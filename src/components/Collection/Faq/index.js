@@ -14,7 +14,7 @@ const Faq = () => {
                             <Accordion defaultActiveKey="0">
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>
-                                        <h5>What is Layer 1 Tales collection about?</h5>
+                                        <h5>What is the Layer 1 Tales collection about?</h5>
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <p>Our rendition of how Solana as a blockchain heroine would look like.</p>
@@ -33,7 +33,7 @@ const Faq = () => {
                                         <h5>How many traits are in the collection?</h5>
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                        <p>The collection has more than 300 traits across 15 categories.</p>
+                                        <p>The collection has more than 445 traits across 15 categories.</p>
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="3">

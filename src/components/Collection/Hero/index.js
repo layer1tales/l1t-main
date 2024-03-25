@@ -141,11 +141,11 @@ const Hero = () => {
             >
                 <SwiperSlide>
                     <div className="text-wrap" data-aos="fade-up" data-aos-delay="1100">
-                        <h1>HIGH QUALITY HAND PAINTED ARTWORK</h1>
-                        <p>WE PRIDE OURSELVES ON CREATING PREMIUM DIGITAL COLLECTIBLES. OUR CHARACTERS ARE DESIGNED WITH
-                            SMALL BRUSH TECHNIQUE, FOLLOWING A SEMI-REALISTIC APPROACH.</p>
+                        <h1>High Quality Hand Painted Artwork</h1>
+                        <p>We Pride Ourselves on Creating Premium Digital Collectibles. Our Characters Are Designed With
+                            Small Brush Technique, Following a Semi-realistic Approach.</p>
                         <a onClick={() => onHeroBtnClick()}>
-                            <span className="text">Our artist</span>
+                            <span className="text">Our Artist</span>
                             <span className="bg">
                                 <AboutHeroBtnBg/>
                             </span>
@@ -156,11 +156,11 @@ const Hero = () => {
                     <div className="text-wrap second-slide-text-wrap">
                         <div className="lines-wrap">
                             <div className="line">
-                                <h2>Supply</h2>
-                                <h2>10,000</h2>
+                                <h2>Price</h2>
+                                <h2>TBA</h2>
                             </div>
                             <div className="line">
-                                <h2>Price</h2>
+                                <h2>Supply</h2>
                                 <h2>TBA</h2>
                             </div>
                             <div className="line">
@@ -168,9 +168,9 @@ const Hero = () => {
                                 <h2>TBA</h2>
                             </div>
                         </div>
-                        <p>original nft collection of 2,222 unique solana blockchain heroines fighting for freedom.</p>
+                        <p>Price will be set in SOL. Join our Discord for the supply and mint date reveal.</p>
                         <a onClick={() => onHeroBtnClick()}>
-                            <span className="text">Our artist</span>
+                            <span className="text">Our Collection</span>
                             <span className="bg">
                                 <AboutHeroBtnBg/>
                             </span>
