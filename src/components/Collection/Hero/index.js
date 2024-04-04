@@ -107,8 +107,9 @@ const Hero = () => {
     };
 
     const collectionVideoSection = document.getElementById('collection-video');
+    const collectionNftSection = document.getElementById('collection-nft');
 
-    const onHeroBtnClick = useCallback(() => {
+    const onHeroArtistBtnClick = useCallback(() => {
         if (collectionVideoSection) {
             heroSwiper.slideTo(1, 1000);
             window.scrollTo({
@@ -117,6 +118,16 @@ const Hero = () => {
             });
         }
     }, [collectionVideoSection, heroSwiper])
+
+    const onHeroCollectionBtnClick = useCallback(() => {
+        if (collectionNftSection) {
+            heroSwiper.slideTo(1, 1000);
+            window.scrollTo({
+                top: collectionNftSection.offsetTop + 30,
+                behavior: 'smooth'
+            });
+        }
+    }, [collectionNftSection, heroSwiper])
 
     return (
         <section id="collection-hero" className="collection-hero-section">
@@ -144,7 +155,7 @@ const Hero = () => {
                         <h1>High Quality Hand Painted Artwork</h1>
                         <p>We Pride Ourselves on Creating Premium Digital Collectibles. Our Characters Are Designed With
                             Small Brush Technique, Following a Semi-realistic Approach.</p>
-                        <a onClick={() => onHeroBtnClick()}>
+                        <a onClick={() => onHeroArtistBtnClick()}>
                             <span className="text">Our Artist</span>
                             <span className="bg">
                                 <AboutHeroBtnBg/>
@@ -169,7 +180,7 @@ const Hero = () => {
                             </div>
                         </div>
                         <p>Price will be set in SOL. Join our Discord for the supply and mint date reveal.</p>
-                        <a onClick={() => onHeroBtnClick()}>
+                        <a onClick={() => onHeroCollectionBtnClick()}>
                             <span className="text">Our Collection</span>
                             <span className="bg">
                                 <AboutHeroBtnBg/>
