@@ -24,11 +24,11 @@ const linksData = [
         link: '/lore/3',
         title: <>Chapter 3<br/>A RIDDLE WITH<br/> NO ANSWER</>
     },
-    // {
-    //     id: 4,
-    //     link: '/lore/4',
-    //     title: <>Chapter 4<br/> MONEY NEVER SLEEPS</>
-    // },
+    {
+        id: 4,
+        link: '/lore/4',
+        title: <>Chapter 4<br/> MONEY NEVER SLEEPS</>
+    },
     // {
     //     id: 5,
     //     link: '/lore/5',
