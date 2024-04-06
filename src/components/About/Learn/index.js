@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import {Container, Row, Col} from "react-bootstrap";
 
 import aboutLearnGlyphVideo from "assets/img/about/about-learn-glyph-video.webm";
@@ -30,12 +31,12 @@ const Learn = () => {
                         <div className="text-wrap">
                             <h2 data-aos="fade-up" data-aos-delay="0">Tome 1: <br/>World of <br/>Solana</h2>
                             <p data-aos="fade-up" data-aos-delay="100">In a near future, the world is undergoing a digital renaissance. Not everyone thinks this innovation is a good idea. <span className="pink">Solana and Ethereum are teaming up to decentralize and destabilize a common enemy</span>: the government.</p>
-                            <a href="/lore/1" data-aos="fade-up" data-aos-delay="200">
+                            <Link to="/lore/1" data-aos="fade-up" data-aos-delay="200">
                                 <span className="text">Read lore</span>
                                 <span className="bg">
                                     <AboutHeroBtnBg/>
                                 </span>
-                            </a>
+                            </Link>
                         </div>
                     </Col>
                 </Row>
