@@ -14,16 +14,16 @@ const linksData = [
         link: '/lore/1',
         title: <>Chapter 1<br/>GLYPH OF DESIRE</>
     },
-    // {
-    //     id: 2,
-    //     link: '/lore/2',
-    //     title: <>Chapter 2<br/> THE CELESTIAL RIDE</>
-    // },
-    // {
-    //     id: 3,
-    //     link: '/lore/3',
-    //     title: <>Chapter 3<br/> A RIDDLE WITH<br/> NO ANSWER</>
-    // },
+    {
+        id: 2,
+        link: '/lore/2',
+        title: <>Chapter 2<br/>THE CELESTIAL RIDE</>
+    },
+    {
+        id: 3,
+        link: '/lore/3',
+        title: <>Chapter 3<br/>A RIDDLE WITH<br/> NO ANSWER</>
+    },
     // {
     //     id: 4,
     //     link: '/lore/4',
