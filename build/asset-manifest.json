@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.6bc79d76.css",
-    "main.js": "/static/js/main.7384aabb.js",
+    "main.js": "/static/js/main.7191e341.js",
     "static/js/453.ad4241f7.chunk.js": "/static/js/453.ad4241f7.chunk.js",
     "static/media/about-hero-ground.png": "/static/media/about-hero-ground.607e5d4b2a8be71fcee9.png",
     "static/media/sound.mp3": "/static/media/sound.e83507c63e763a29055e.mp3",
     "static/media/about-learn-glyph-video-mobile.mov": "/static/media/about-learn-glyph-video-mobile.23cb00c9645d3f68d67c.mov",
+    "static/media/lore-chapter-11.jpg": "/static/media/lore-chapter-11.ce93c18d71f2e5c3eeb6.jpg",
     "static/media/lore-chapter-1-cover.jpg": "/static/media/lore-chapter-1-cover.a37ea20b58705b00126e.jpg",
     "static/media/about-learn-glyph-video.webm": "/static/media/about-learn-glyph-video.357da383c978a5a3fb29.webm",
     "static/media/characters-character-4.png": "/static/media/characters-character-4.6056d89ca15c407e3cfe.png",
@@ -22,13 +23,20 @@
     "static/media/about-hero-bg.png": "/static/media/about-hero-bg.d9444cf74c20d533cebf.png",
     "static/media/art-collection-item-8.png": "/static/media/art-collection-item-8.9a3b44b41e9ac75ba4e5.png",
     "static/media/collection-video-cover.png": "/static/media/collection-video-cover.6d8263f35ac0989674a0.png",
+    "static/media/lore-chapter-6.jpg": "/static/media/lore-chapter-6.60485dc4e18657a8ddaf.jpg",
     "static/media/lore-chapter-3.jpg": "/static/media/lore-chapter-3.b2109733fe95abf477a8.jpg",
+    "static/media/lore-chapter-7.jpg": "/static/media/lore-chapter-7.2ed66afd376a10f3d377.jpg",
     "static/media/about-lit-light-bg.png": "/static/media/about-lit-light-bg.5994b3b4c946d533138c.png",
     "static/media/lore-chapter-2.jpg": "/static/media/lore-chapter-2.c7404ef59bde5be5a24e.jpg",
     "static/media/lore-chapter-4.jpg": "/static/media/lore-chapter-4.96e919bac2a379aa7715.jpg",
+    "static/media/lore-chapter-8.jpg": "/static/media/lore-chapter-8.2b3e37b0e78454eb3780.jpg",
     "static/media/HeadlinerNo.45 DEMO.ttf": "/static/media/HeadlinerNo.45 DEMO.0a47091c29c107d95473.ttf",
+    "static/media/lore-chapter-10.jpg": "/static/media/lore-chapter-10.b6da13a91dab5442ed91.jpg",
     "static/media/characters-bg-noise.png": "/static/media/characters-bg-noise.9f2a891c29cbb4950bb5.png",
     "static/media/lore-chapter-1.jpg": "/static/media/lore-chapter-1.7a86a2e811eb10325291.jpg",
+    "static/media/lore-chapter-12.jpg": "/static/media/lore-chapter-12.299d18d80274065eb910.jpg",
+    "static/media/lore-chapter-5.jpg": "/static/media/lore-chapter-5.fd12260c6f370aad54b3.jpg",
+    "static/media/lore-chapter-9.jpg": "/static/media/lore-chapter-9.b9ce1969c52402e02b2e.jpg",
     "static/media/characters-artifacts-desktop.mp4": "/static/media/characters-artifacts-desktop.eaa5ee9021ed11220e0f.mp4",
     "static/media/characters-artifacts-tablet.mp4": "/static/media/characters-artifacts-tablet.3014d61e06eb608d0eb9.mp4",
     "static/media/characters-artifacts-mobile.mp4": "/static/media/characters-artifacts-mobile.4a9b47f465b2039e72ca.mp4",
@@ -72,11 +80,11 @@
     "static/media/prev-arrow-icon.svg": "/static/media/prev-arrow-icon.4ef1f9c3ef7e02b4d55559786ad61d75.svg",
     "static/media/icon-sound-off.svg": "/static/media/icon-sound-off.78636955f6f2269ad301ee48d7ebf4f8.svg",
     "main.6bc79d76.css.map": "/static/css/main.6bc79d76.css.map",
-    "main.7384aabb.js.map": "/static/js/main.7384aabb.js.map",
+    "main.7191e341.js.map": "/static/js/main.7191e341.js.map",
     "453.ad4241f7.chunk.js.map": "/static/js/453.ad4241f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bc79d76.css",
-    "static/js/main.7384aabb.js"
+    "static/js/main.7191e341.js"
   ]
 }
