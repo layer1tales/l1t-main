@@ -1,7 +1,8 @@
 import React from 'react';
+import {useMediaQuery} from 'react-responsive';
 import AudioPlayer from 'react-modern-audio-player';
 
-const Player = ({data, chapterId, isAudioPlayerActive}) => {
+const Player = ({data, chapterId, isAudioPlayerActive, isAudioPlayerHidden}) => {
     const playList = data.filter(({audio}) => audio).map(({title, id, cover, audio}) => (
         {
             name: title,
@@ -11,6 +12,8 @@ const Player = ({data, chapterId, isAudioPlayerActive}) => {
             id: id,
         }
     ));
+
+    const isMdScreen = useMediaQuery({query: '(max-width: 992px)'});
 
     // const CustomPlayer = ({audioPlayerState}: {
     //     audioPlayerState?: AudioPlayerStateContext;
@@ -22,7 +25,7 @@ const Player = ({data, chapterId, isAudioPlayerActive}) => {
 
     if (data) {
         return (
-            <section className={`audio-player-section ${isAudioPlayerActive ? 'active' : ''}`}>
+            <section className={`audio-player-section ${isAudioPlayerActive ? 'active' : ''} ${isAudioPlayerHidden ? 'hidden' : ''}`}>
                 <AudioPlayer
                     playList={playList}
                     audioInitialState={{
@@ -36,7 +39,7 @@ const Player = ({data, chapterId, isAudioPlayerActive}) => {
                         trackTime: true,
                         trackInfo: true,
                         artwork: true,
-                        progress: 'waveform',
+                        progress: isMdScreen ? 'bar' : 'waveform',
                     }}
                     placement={{
                         player: 'bottom-left',

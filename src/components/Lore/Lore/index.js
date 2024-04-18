@@ -11,12 +11,26 @@ import {chaptersData} from "../chaptersData";
 
 const Lore = ({chapterId}) => {
     const [isAudioPlayerActive, setIsAudioPlayerActive] = useState(false);
+    const [isAudioPlayerHidden, setIsAudioPlayerHidden] = useState(false);
 
     useEffect(() => {
         if (chapterId) {
             setIsAudioPlayerActive(false);
         }
     }, [chapterId]);
+
+    const handleScroll = () => {
+        const loreNavWrap = document.querySelector('.lore-content-section .nav-wrap');
+        const {top} = loreNavWrap.getBoundingClientRect();
+        setIsAudioPlayerHidden(top - window.innerHeight < 0);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, {
+            passive: true
+        });
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     return (
         <>
@@ -32,6 +46,7 @@ const Lore = ({chapterId}) => {
                     data={chaptersData}
                     chapterId={chapterId}
                     isAudioPlayerActive={isAudioPlayerActive}
+                    isAudioPlayerHidden={isAudioPlayerHidden}
                 />
             </main>
             <Footer/>

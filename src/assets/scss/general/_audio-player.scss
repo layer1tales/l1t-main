@@ -1,12 +1,12 @@
 .audio-player-section {
   width: 100%;
   position: fixed;
-  z-index: 100;
+  z-index: 19;
   bottom: 0;
   left: 0;
-  transition: $slow-transition;
+  transition: $med-transition;
 
-  &:not(.active) {
+  &:not(.active), &.hidden {
     opacity: 0;
     transform: translateY(10vh);
   }
@@ -14,9 +14,21 @@
   .rm-audio-player-provider {
     position: relative !important;
     font-family: $main-font;
+    --rm-audio-player-interface-container: var(--spectrum-global-color-gray-100);
+    --rm-audio-player-volume-background: #ccc;
+    --rm-audio-player-volume-panel-background: #f2f2f2;
+    --rm-audio-player-volume-panel-border: #ccc;
+    --rm-audio-player-volume-thumb: #d3d3d3;
+    --rm-audio-player-volume-fill: rgba(0, 0, 0, 0.5);
+    --rm-audio-player-volume-track: #ababab;
     --rm-audio-player-track-current-time: #E9ABE1;
+    --rm-audio-player-track-duration: #8c8c8c;
     --rm-audio-player-progress-bar: #E9ABE1;
+    --rm-audio-player-progress-bar-background: #D1D1D1;
+    --rm-audio-player-waveform-cursor: var(--spectrum-global-color-gray-800);
+    --rm-audio-player-waveform-background: var(--rm-audio-player-progress-bar-background);
     --rm-audio-player-waveform-bar: #E9ABE1;
+    --rm-audio-player-sortable-list: var(--spectrum-global-color-gray-200);
     --rm-audio-player-sortable-list-button-active: #E9ABE1;
 
     .interface-grid {
@@ -63,6 +75,10 @@
 
       @media (min-width: $screen-xxl) {
         height: calc(60 / 1440 * 100vw) !important;
+      }
+
+      > wave {
+        border-right-color: #E9ABE1 !important;
       }
     }
 
@@ -123,6 +139,11 @@
 
       @media (max-width: $screen-md) {
         width: 50px;
+      }
+
+      svg {
+        fill: $white-color;
+        stroke: $white-color;
       }
     }
 
