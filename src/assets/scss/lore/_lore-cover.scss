@@ -12,7 +12,7 @@
   }
 
   @media (max-width: $screen-lg) {
-    min-height: 420px;
+    min-height: 500px;
     padding: 0;
     align-items: flex-end;
   }
@@ -38,6 +38,10 @@
     @media (max-width: $screen-md) {
       display: none;
     }
+  }
+
+  .container {
+    max-width: 100%;
   }
 
   .cover-wrap {
@@ -81,7 +85,7 @@
     @media (max-width: $screen-md) {
       position: relative;
       height: auto;
-      width: 100vw;
+      width: calc(100vw + 20px);
       margin: 110px -20px 0;
     }
 
@@ -155,7 +159,7 @@
     }
 
     .scroll-wrap {
-      margin-top: calc(60 / 1440 * 100vw);
+      margin: calc(60 / 1440 * 100vw) auto calc(120 / 1440 * 100vw);
       -webkit-animation: scrollRotating 15s linear infinite;
       -moz-animation: scrollRotating 15s linear infinite;
       -ms-animation: scrollRotating 15s linear infinite;
@@ -163,7 +167,7 @@
       animation: scrollRotating 15s linear infinite;
 
       @media (max-width: $screen-xxl) {
-        margin-top: 60px;
+        margin: 60px auto 120px;
       }
 
       @media (max-width: $screen-lg) {
@@ -175,6 +179,60 @@
 
         @media (max-width: $screen-xxl) {
           width: 80px;
+        }
+      }
+    }
+
+    .play-audio-wrap {
+      display: flex;
+      align-items: center;
+      max-width: max-content;
+      gap: calc(12 / 1440 * 100vw);
+      margin: calc(24 / 1440 * 100vw) auto calc(80 / 1440 * 100vw);
+      cursor: pointer;
+
+      @media (max-width: $screen-xxl) {
+        margin: 24px auto 80px;
+        gap: 12px;
+      }
+
+      @media (max-width: $screen-md) {
+        margin: 24px auto 48px;
+      }
+
+      &.play-audio-hide {
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+
+      &:hover p {
+        transform: translateX(calc(4 / 1440 * 100vw));
+
+        @media (max-width: $screen-xxl) {
+          transform: translateX(4px);
+        }
+      }
+
+      img {
+        width: calc(72 / 1440 * 100vw);
+
+        @media (max-width: $screen-xxl) {
+          width: 72px;
+        }
+
+        @media (max-width: $screen-md) {
+          width: 60px;
+        }
+      }
+
+      p {
+        font: 700 calc(18 / 1440 * 100vw)/1 $main-font;
+        text-transform: uppercase;
+        color: $white-color;
+        margin: 0;
+
+        @media (max-width: $screen-xxl) {
+          font-size: 18px;
         }
       }
     }

@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import {useMediaQuery} from "react-responsive";
+import {useMediaQuery} from 'react-responsive';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {aosSettings} from 'aosSettings';
@@ -9,7 +9,7 @@ import About from './components/About';
 // import Art from './components/Art';
 import Collection from './components/Collection';
 import Characters from './components/Characters';
-import Lore from './components/Lore';
+import LoreWrap from './components/Lore';
 import NotFound from './components/NotFound';
 import TermsOfUse from './components/General/TermsOfUse';
 import PrivacyPolicy from './components/General/PrivacyPolicy';
@@ -46,7 +46,7 @@ const App = () => {
                     {/*<Route exact path="/art" component={Art}/>*/}
                     <Route exact path="/collection" component={Collection}/>
                     <Route exact path="/characters" component={Characters}/>
-                    <Route exact path="/lore/:chapterId" component={Lore}/>
+                    <Route exact path="/lore/:chapterId" component={LoreWrap}/>
                     <Route exact path="/terms" component={TermsOfUse}/>
                     <Route exact path="/privacy" component={PrivacyPolicy}/>
                     <Route component={NotFound}/>

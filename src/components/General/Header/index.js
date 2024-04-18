@@ -13,7 +13,7 @@ import {ReactComponent as IconDiscordColor} from "assets/img/header/icon-discord
 import {ReactComponent as IconTiktokColor} from "assets/img/header/icon-tiktok-color.svg";
 // import progressHighlighter from "assets/img/header/progress-highlighter.svg";
 
-import sound from "assets/sound.mp3";
+import sound from "assets/audio/sound.mp3";
 
 const Header = ({isMdScreen}) => {
     const {pathname} = useLocation();

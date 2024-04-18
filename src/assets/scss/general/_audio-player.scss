@@ -1,0 +1,142 @@
+.audio-player-section {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  transition: $slow-transition;
+
+  &:not(.active) {
+    opacity: 0;
+    transform: translateY(10vh);
+  }
+
+  .rm-audio-player-provider {
+    position: relative !important;
+    font-family: $main-font;
+    --rm-audio-player-track-current-time: #E9ABE1;
+    --rm-audio-player-progress-bar: #E9ABE1;
+    --rm-audio-player-waveform-bar: #E9ABE1;
+    --rm-audio-player-sortable-list-button-active: #E9ABE1;
+
+    .interface-grid {
+      padding: 12px;
+      gap: 12px;
+
+      @media (min-width: $screen-xxl) {
+        padding: calc(12 / 1440 * 100vw);
+        gap: calc(12 / 1440 * 100vw);
+      }
+
+      @media (max-width: $screen-md) {
+        grid-template-columns: fit-content(50px) 1fr 1fr fit-content(50px) !important;
+        grid-template-rows: auto !important;
+        grid-template-areas:
+          "row1-1 row1-2 row1-2 row1-3"
+          "row1-4 row1-5 row1-5 row1-6" !important;
+      }
+
+      > div {
+        padding: 0 !important;
+
+        &:nth-last-child(-n + 2) {
+          display: none;
+        }
+
+        &:nth-child(1), &:nth-child(2) {
+          @media (max-width: $screen-md) {
+            justify-self: self-start !important;
+          }
+        }
+
+        &:nth-child(7) {
+          @media (max-width: $screen-md) {
+            justify-self: self-end !important;
+          }
+        }
+      }
+    }
+
+    #rm-waveform > wave {
+      height: 60px !important;
+      overflow: hidden !important;
+
+      @media (min-width: $screen-xxl) {
+        height: calc(60 / 1440 * 100vw) !important;
+      }
+    }
+
+    .artwork-container img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+
+      @media (min-width: $screen-xxl) {
+        width: calc(60 / 1440 * 100vw);
+        height: calc(60 / 1440 * 100vw);
+      }
+
+      @media (max-width: $screen-md) {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    .track-info-container {
+      row-gap: 0;
+      width: 200px;
+
+      @media (max-width: $screen-lg) {
+        width: 160px;
+      }
+
+      @media (max-width: $screen-md) {
+        width: initial;
+        height: 50px;
+        padding: 3px 0;
+      }
+
+      .title {
+        font-size: 16px;
+        color: $white-color;
+
+        @media (min-width: $screen-xxl) {
+          font-size: calc(16 / 1440 * 100vw);
+        }
+      }
+
+      .writer {
+        font-size: 14px;
+
+        @media (min-width: $screen-xxl) {
+          font-size: calc(14 / 1440 * 100vw);
+        }
+      }
+    }
+
+    .btn-wrapper .play-button {
+      width: 45px;
+
+      @media (min-width: $screen-xxl) {
+        width: calc(45 / 1440 * 100vw);
+      }
+
+      @media (max-width: $screen-md) {
+        width: 50px;
+      }
+    }
+
+    .track-time-current-container .track-current-time,
+    .track-time-duration-container .track-duration {
+      font-size: 16px;
+
+      @media (min-width: $screen-xxl) {
+        font-size: calc(16 / 1440 * 100vw);
+      }
+    }
+
+    .sortable-play-list {
+      display: none;
+    }
+  }
+}

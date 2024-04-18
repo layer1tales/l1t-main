@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;&display=swap');
+
 @font-face {
   font-family: 'HeadlinerNo.45';
   src: url('../../fonts/HeadlinerNo.45 DEMO.ttf') format('truetype');
@@ -28,6 +30,7 @@
 // Fonts
 $main-font: 'NBArchitektStdNeue', sans-serif;
 $headline-font: 'HeadlinerNo.45', sans-serif;
+$text-font: 'Roboto', sans-serif;
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;

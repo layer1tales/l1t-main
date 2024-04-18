@@ -1,12 +1,11 @@
-import React, {useEffect, useState, useMemo} from 'react';
+import React, {useMemo} from 'react';
 import {Container, Row, Col, Dropdown} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
-import {chaptersData} from "chaptersData";
+import {chaptersData} from "../chaptersData";
 import loreDropdownArrowIcon from "assets/img/lore/lore-dropdown-arrow-icon.svg";
 import {ReactComponent as LorePrevChapterBg} from "assets/img/lore/lore-prev-chapter-bg.svg";
 import {ReactComponent as LoreNextChapterBg} from "assets/img/lore/lore-next-chapter-bg.svg";
-import iconLoading from "assets/img/general/icon-loading.svg";
 
 const linksData = [
     {
@@ -72,8 +71,6 @@ const linksData = [
 ]
 
 const Content = ({data}) => {
-    const [isChapterLoading, setIsChapterLoading] = useState(true);
-
     const defaultData = {
         id: 1,
         text: <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -104,19 +101,6 @@ const Content = ({data}) => {
         return Number(id) - 1;
     }, [id]);
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-        setTimeout(() => setIsChapterLoading(false), 1000);
-    }, [isChapterLoading]);
-
-    if (isChapterLoading) {
-        return (
-            <section className="loading-wrap">
-                <img src={iconLoading} alt="Loading"/>
-            </section>
-        )
-    }
-
     return (
         <section id="lore-content" className="lore-content-section">
             <Container>
@@ -135,8 +119,7 @@ const Content = ({data}) => {
                                         const {id, link, title} = l;
 
                                         return (
-                                            <Link to={link} className="dropdown-item"
-                                                  onClick={() => setIsChapterLoading(true)} key={id}>
+                                            <Link to={link} className="dropdown-item" key={id}>
                                                 <p>{title}</p>
                                             </Link>
                                         )
@@ -149,7 +132,7 @@ const Content = ({data}) => {
                         </div>
                         <div className="nav-wrap">
                             <Link to={`/lore/${prevChapterLink}`} data-aos="fade-right" data-aos-delay="0"
-                                  onClick={() => setIsChapterLoading(true)}  className={!prevChapterLink ? 'hide' : ''}>
+                                  className={!prevChapterLink ? 'hide' : ''}>
                                 <span className="bg">
                                     <LorePrevChapterBg/>
                                 </span>
@@ -159,7 +142,7 @@ const Content = ({data}) => {
                                 </span>
                             </Link>
                             <Link to={`/lore/${nextChapterLink}`} data-aos="fade-left" data-aos-delay="0"
-                                  onClick={() => setIsChapterLoading(true)} className={!nextChapterLink ? 'hide' : ''}>
+                                  className={!nextChapterLink ? 'hide' : ''}>
                                 <span className="bg">
                                     <LoreNextChapterBg/>
                                 </span>
