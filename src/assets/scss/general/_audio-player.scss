@@ -102,6 +102,10 @@
       row-gap: 0;
       width: 200px;
 
+      @media (min-width: $screen-xxl) {
+        width: calc(200 / 1440 * 100vw);
+      }
+
       @media (max-width: $screen-lg) {
         width: 160px;
       }
