@@ -138,7 +138,7 @@ const Header = ({isMdScreen}) => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://tiktok.com/realsolana" target="_blank" rel="noreferrer">
+                            <a href="https://tiktok.com/@l1tsolana" target="_blank" rel="noreferrer">
                                 <IconTiktokColor/>
                             </a>
                         </li>
