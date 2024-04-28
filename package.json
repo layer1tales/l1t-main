@@ -63,5 +63,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Please follow the steps:",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

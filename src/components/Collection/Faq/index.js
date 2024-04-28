@@ -25,7 +25,7 @@ const Faq = () => {
                                         <h5>What is the project's total supply?</h5>
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                        <p>There is 10,000 unique, algorithmically generated Solana’s.</p>
+                                        <p>There are (TBA) unique, algorithmically generated Solanas.</p>
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="2">
@@ -33,7 +33,7 @@ const Faq = () => {
                                         <h5>How many traits are in the collection?</h5>
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                        <p>The collection has more than 445 traits across 15 categories.</p>
+                                        <p>The collection has more than 450 traits across 15 categories.</p>
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="3">

@@ -13,61 +13,7 @@ const linksData = [
         link: '/lore/1',
         title: <>Chapter 1<br/>GLYPH OF DESIRE</>
     },
-    {
-        id: 2,
-        link: '/lore/2',
-        title: <>Chapter 2<br/>THE CELESTIAL RIDE</>
-    },
-    {
-        id: 3,
-        link: '/lore/3',
-        title: <>Chapter 3<br/>A RIDDLE WITH<br/> NO ANSWER</>
-    },
-    {
-        id: 4,
-        link: '/lore/4',
-        title: <>Chapter 4<br/> MONEY NEVER SLEEPS</>
-    },
-    {
-        id: 5,
-        link: '/lore/5',
-        title: <>Chapter 5<br/> BEHIND BLOCK 42</>
-    },
-    {
-        id: 6,
-        link: '/lore/6',
-        title: <>Chapter 6<br/> A HIGH PRICE<br/> TO PAY</>
-    },
-    {
-        id: 7,
-        link: '/lore/7',
-        title: <>Chapter 7<br/> HEAD IN THE CLOUDS</>
-    },
-    {
-        id: 8,
-        link: '/lore/8',
-        title: <>Chapter 8<br/> RECKLESS PURSUIT</>
-    },
-    {
-        id: 9,
-        link: '/lore/9',
-        title: <>Chapter 9<br/> DARKNESS BEFORE<br/> THE DAWN</>
-    },
-    {
-        id: 10,
-        link: '/lore/10',
-        title: <>Chapter 10<br/> THE MIGHTY HAS<br/> FALLEN</>
-    },
-    {
-        id: 11,
-        link: '/lore/11',
-        title: <>Chapter 11<br/> PERILOUS ESCAPE</>
-    },
-    {
-        id: 12,
-        link: '/lore/12',
-        title: <>Chapter 12<br/> THE FINAL AWAKENING</>
-    },
+
 ]
 
 const Content = ({data}) => {

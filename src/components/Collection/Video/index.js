@@ -19,7 +19,7 @@ const Video = () => {
                         </div>
                     </Col>
                     <Col xs={12}>
-                        <a href="https://www.youtube.com/shorts/pqPdPsAULM8" target="_blank" rel="noreferrer"
+                        <a href="https://youtube.com/shorts/DDlhNL26ZD8" target="_blank" rel="noreferrer"
                            className="video-wrap" data-aos="fade-up" data-aos-delay="0">
                             <div className="cover">
                                 <img src={artVideoCover} alt="Video Cover"/>
