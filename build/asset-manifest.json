@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3c7f4453.css",
-    "main.js": "/static/js/main.4fb2ae01.js",
+    "main.js": "/static/js/main.f5498a3a.js",
     "static/js/453.ad4241f7.chunk.js": "/static/js/453.ad4241f7.chunk.js",
     "static/media/chapter-3.mp3": "/static/media/chapter-3.a10e00f2c930c080270c.mp3",
     "static/media/chapter-1.mp3": "/static/media/chapter-1.6fddd4c0cacf90743fff.mp3",
@@ -19,7 +19,7 @@
     "static/media/about-hero-palms.png": "/static/media/about-hero-palms.6398473c59aeef0678d1.png",
     "static/media/about-hero-bg.png": "/static/media/about-hero-bg.d9444cf74c20d533cebf.png",
     "static/media/collection-video-cover.png": "/static/media/collection-video-cover.6d8263f35ac0989674a0.png",
-    "static/media/art-collection-item-4.png": "/static/media/art-collection-item-4.9a99bdd50806576ef09b.png",
+    "static/media/art-collection-item-4.png": "/static/media/art-collection-item-4.db46824efff72620693d.png",
     "static/media/art-collection-item-8.png": "/static/media/art-collection-item-8.2dec08c2464c3b095436.png",
     "static/media/art-collection-item-7.png": "/static/media/art-collection-item-7.97a6fd6dfdbf16919ad8.png",
     "static/media/art-collection-item-5.png": "/static/media/art-collection-item-5.1219529f5d94981b25a0.png",
@@ -83,11 +83,11 @@
     "static/media/icon-play-audio.svg": "/static/media/icon-play-audio.7edee8dd53dbeed90949078341cae2fd.svg",
     "static/media/icon-sound-off.svg": "/static/media/icon-sound-off.f44e1b0441fdd127924db903cd4519ac.svg",
     "main.3c7f4453.css.map": "/static/css/main.3c7f4453.css.map",
-    "main.4fb2ae01.js.map": "/static/js/main.4fb2ae01.js.map",
+    "main.f5498a3a.js.map": "/static/js/main.f5498a3a.js.map",
     "453.ad4241f7.chunk.js.map": "/static/js/453.ad4241f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c7f4453.css",
-    "static/js/main.4fb2ae01.js"
+    "static/js/main.f5498a3a.js"
   ]
 }
