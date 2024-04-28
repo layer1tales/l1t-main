@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9a650a3.css",
-    "main.js": "/static/js/main.18353edb.js",
+    "main.css": "/static/css/main.3c7f4453.css",
+    "main.js": "/static/js/main.4fb2ae01.js",
     "static/js/453.ad4241f7.chunk.js": "/static/js/453.ad4241f7.chunk.js",
     "static/media/chapter-3.mp3": "/static/media/chapter-3.a10e00f2c930c080270c.mp3",
+    "static/media/chapter-1.mp3": "/static/media/chapter-1.6fddd4c0cacf90743fff.mp3",
     "static/media/about-hero-ground.png": "/static/media/about-hero-ground.607e5d4b2a8be71fcee9.png",
     "static/media/sound.mp3": "/static/media/sound.e83507c63e763a29055e.mp3",
     "static/media/about-learn-glyph-video-mobile.mov": "/static/media/about-learn-glyph-video-mobile.23cb00c9645d3f68d67c.mov",
@@ -15,17 +16,17 @@
     "static/media/characters-character-5.png": "/static/media/characters-character-5.6f1b7c502b7df8aa691f.png",
     "static/media/characters-character-2.png": "/static/media/characters-character-2.ec0a80ff8f5807ffb24f.png",
     "static/media/characters-character-3.png": "/static/media/characters-character-3.896dcc686ff5a0d436bd.png",
-    "static/media/collection-hero-character.png": "/static/media/collection-hero-character.2fb0f84fdc960fdb9078.png",
     "static/media/about-hero-palms.png": "/static/media/about-hero-palms.6398473c59aeef0678d1.png",
-    "static/media/art-collection-item-7.png": "/static/media/art-collection-item-7.9fe76cba6a9adb0f2f06.png",
-    "static/media/art-collection-item-5.png": "/static/media/art-collection-item-5.9b2f43686ae608c031d0.png",
-    "static/media/art-collection-item-6.png": "/static/media/art-collection-item-6.a55a00d3bc64b6953694.png",
-    "static/media/art-collection-item-4.png": "/static/media/art-collection-item-4.d746d3ace48324a7d99e.png",
     "static/media/about-hero-bg.png": "/static/media/about-hero-bg.d9444cf74c20d533cebf.png",
-    "static/media/art-collection-item-8.png": "/static/media/art-collection-item-8.9a3b44b41e9ac75ba4e5.png",
     "static/media/collection-video-cover.png": "/static/media/collection-video-cover.6d8263f35ac0989674a0.png",
+    "static/media/art-collection-item-4.png": "/static/media/art-collection-item-4.9a99bdd50806576ef09b.png",
+    "static/media/art-collection-item-8.png": "/static/media/art-collection-item-8.2dec08c2464c3b095436.png",
+    "static/media/art-collection-item-7.png": "/static/media/art-collection-item-7.97a6fd6dfdbf16919ad8.png",
+    "static/media/art-collection-item-5.png": "/static/media/art-collection-item-5.1219529f5d94981b25a0.png",
     "static/media/lore-chapter-6.jpg": "/static/media/lore-chapter-6.60485dc4e18657a8ddaf.jpg",
+    "static/media/art-collection-item-6.png": "/static/media/art-collection-item-6.9c501947f4b407a554b4.png",
     "static/media/lore-chapter-3.jpg": "/static/media/lore-chapter-3.b2109733fe95abf477a8.jpg",
+    "static/media/collection-hero-character.png": "/static/media/collection-hero-character.685408f5ce502a1afe3c.png",
     "static/media/lore-chapter-7.jpg": "/static/media/lore-chapter-7.2ed66afd376a10f3d377.jpg",
     "static/media/about-lit-light-bg.png": "/static/media/about-lit-light-bg.5994b3b4c946d533138c.png",
     "static/media/lore-chapter-2.jpg": "/static/media/lore-chapter-2.c7404ef59bde5be5a24e.jpg",
@@ -81,12 +82,12 @@
     "static/media/prev-arrow-icon.svg": "/static/media/prev-arrow-icon.2129129cfa7f63f23dd99d1bab1c8b26.svg",
     "static/media/icon-play-audio.svg": "/static/media/icon-play-audio.7edee8dd53dbeed90949078341cae2fd.svg",
     "static/media/icon-sound-off.svg": "/static/media/icon-sound-off.f44e1b0441fdd127924db903cd4519ac.svg",
-    "main.f9a650a3.css.map": "/static/css/main.f9a650a3.css.map",
-    "main.18353edb.js.map": "/static/js/main.18353edb.js.map",
+    "main.3c7f4453.css.map": "/static/css/main.3c7f4453.css.map",
+    "main.4fb2ae01.js.map": "/static/js/main.4fb2ae01.js.map",
     "453.ad4241f7.chunk.js.map": "/static/js/453.ad4241f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9a650a3.css",
-    "static/js/main.18353edb.js"
+    "static/css/main.3c7f4453.css",
+    "static/js/main.4fb2ae01.js"
   ]
 }
